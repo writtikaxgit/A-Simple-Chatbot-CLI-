@@ -8,7 +8,7 @@ def chatbot():
 
         # Exit condition
         if user_input in ["bye", "exit", "quit"]:
-            print("Chatbot: Goodbye! Have a great day! 👋")
+            print("Chatbot: Goodbye! Have a great day!")
             break
 
         # Greetings
@@ -35,3 +35,4 @@ def chatbot():
 # Run the chatbot
 if __name__ == "__main__":
     chatbot()
+
